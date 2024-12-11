@@ -11,7 +11,7 @@
 
 <body>
 
-  <h1> Anh có điều muốn nói</h1>
+  <h3> Anh có điều muốn nói</h3>
   <button id="playButton" onclick="generateRandomNotifications()">Nhấn đây nè </button>
   <div class="final-message" id="finalMessage" onclick="redirectToNewPage()">
     <p id="text1"></p>
@@ -24,6 +24,7 @@
     const audioPlayer = document.getElementById("audioPlayer");
 
     playButton.addEventListener("click", function() {
+      
         audioPlayer.play();
     });
 </script>
